@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="number"]{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.button-link {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #45a049;
+}
+
+.update-button {
+    background-color: #f0ad4e; /* Bootstrap 'btn-warning' color */
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.update-button:hover {
+    background-color: #ec971f; /* Darker shade for hover effect */
+}
+
+.delete-button {
+    background-color: #d9534f; /* Bootstrap 'btn-danger' color */
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.delete-button:hover {
+    background-color: #c9302c; /* Darker shade for hover effect */
+}
